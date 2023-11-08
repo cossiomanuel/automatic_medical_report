@@ -16,7 +16,7 @@ This pipeline is designed to generate automatic cardiology reports based on pati
 - Ensure you have the OpenAI API credentials set up with the appropriate access rights.
 
 ### 3. **API Key Setup:**
-- Replace the placeholder '''openai.api_key = " " ''' with your actual OpenAI API key. You can see where to find your openAI API key [here](https://help.openai.com/en/articles/4936850-where-do-i-find-my-secret-api-key).
+- Replace the placeholder '''openai.api_key =  ''' with your actual OpenAI API key. You can see where to find your openAI API key [here](https://help.openai.com/en/articles/4936850-where-do-i-find-my-secret-api-key).
 
 ### 4. **Run the Code:**
 - After setting up the API key, execute the code to generate the medical report.
