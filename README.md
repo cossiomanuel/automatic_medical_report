@@ -17,10 +17,10 @@ This pipeline is designed to generate automatic cardiology reports based on pati
 
 ### 3. **API Key Setup:**
 - Replace the placeholder  with your actual OpenAI API key.
-'''
+```
 openai.api_key =
 
-'''
+```
 -   You can see where to find your openAI API key [here](https://help.openai.com/en/articles/4936850-where-do-i-find-my-secret-api-key).
 
 ### 4. **Run the Code:**
