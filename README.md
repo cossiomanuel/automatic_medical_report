@@ -47,7 +47,7 @@ openai.api_key = ' '
 ### **Evaluation of the Medical Report:**
 - The quality of the generated medical report is assessed using specialized Natural Language Processing models and predefined scoring systems. Three evaluation functions are employed, each utilizing different models to ensure comprehensive assessment:
     1. **BertForSequenceClassification Model:**
-        - Tokenizes the medical report and predicts the quality score using the 'emilyalsentzer/Bio_ClinicalBERT' model.
+        - Tokenizes the medical report and predicts the quality score using the 'Bio_ClinicalBERT' model.
     2. **XLM-Roberta Model:**
         - Tokenizes the medical report and predicts the quality score using the 'xlm-roberta-base' model.
     3. **ChatGPT Evaluation:**
