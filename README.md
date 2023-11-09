@@ -37,21 +37,21 @@ client = openai.Client()
 ### 6. **Additional Analysis and Results:**
 
 #### **Quality Evaluation Metrics**:
-The generated reports were evaluated using various metrics, including BERT, BERT BIO, ROBERTA, GPT, a person (not a doctor), and a cardiologist. Each evaluator assigned scores from 1 to 10, providing a comprehensive evaluation of the report's quality (refer to Figure 1).
+The generated reports were evaluated using various metrics, including BERT, BERT BIO, ROBERTA, GPT, a person (not a doctor), and a cardiologist. Each evaluator assigned scores from 1 to 10, providing a comprehensive evaluation of the report's quality.
 
 <div align="center">
   <img src="Figures/3.png" width=80% height=80% alt="RM.">
 </div>
 
 #### **Evaluation Time**:
-Evaluation time for different evaluators (person, BERT, BERT BIO, ROBERTA, GPT) was measured to analyze the efficiency of each method. The time taken to read and analyze the report is crucial for practical applications (refer to Figure 2).
+Evaluation time for different evaluators (person, BERT, BERT BIO, ROBERTA, GPT) was measured to analyze the efficiency of each method. The time taken to read and analyze the report is crucial for practical applications.
 
 <div align="center">
   <img src="Figures/2.png" width=40% height=40% alt="RM.">
 </div>
 
 #### **Temperature and Report Length**:
-The effect of different temperature values on the extension of the created reports was analyzed. This analysis provides insights into how the temperature setting influences the length and complexity of the generated reports (refer to Figure 3).
+The effect of different temperature values on the extension of the created reports was analyzed. This analysis provides insights into how the temperature setting influences the length and complexity of the generated reports.
 
 <div align="center">
   <img src="Figures/1.png" width=80% height=80% alt="RM.">
