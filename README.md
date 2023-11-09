@@ -47,7 +47,7 @@ The generated reports were evaluated using various metrics, including BERT, BERT
 Evaluation time for different evaluators (person, BERT, BERT BIO, ROBERTA, GPT) was measured to analyze the efficiency of each method. The time taken to read and analyze the report is crucial for practical applications (refer to Figure 2).
 
 <div align="center">
-  <img src="Figures/2.png" width=80% height=80% alt="RM.">
+  <img src="Figures/2.png" width=40% height=40% alt="RM.">
 </div>
 
 #### **Temperature and Report Length**:
