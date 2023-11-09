@@ -5,6 +5,7 @@
 
 This pipeline is designed to generate automatic cardiology reports based on patient information and medical findings. It utilizes a multiple-choice system to collect essential details about the patient, such as patient ID, age, gender, blood pressure, breath sounds, heart sounds, ECG results, and echocardiogram findings. The gathered information is then processed and utilized as input for generating a detailed medical report using the ChatGPT API. The report can be emailed or added to the EHR as a medical note of a consultation.
 
+
 ## Instructions for Usage:
 
 ### 1. **Collect Patient Information:**
@@ -18,7 +19,11 @@ This pipeline is designed to generate automatic cardiology reports based on pati
 ### 3. **API Key Setup:**
 - Replace the placeholder  with your actual OpenAI API key.
 ```
-openai.api_key = ' '
+API_key = ""
+
+os.environ["OPENAI_API_KEY"] = API_key
+
+client = openai.Client()
 
 ```
 -   You can see where to find your openAI API key [here](https://help.openai.com/en/articles/4936850-where-do-i-find-my-secret-api-key).
@@ -52,6 +57,9 @@ openai.api_key = ' '
         - Tokenizes the medical report and predicts the quality score using the 'xlm-roberta-base' model.
     3. **ChatGPT Evaluation:**
         - Uses the ChatGPT API to assess the quality of the medical report and assigns a quality score.
+      
+### Notebook
+In this link you will find the [notebook](Automatic_report.ipynb).
 
 ## License
 
